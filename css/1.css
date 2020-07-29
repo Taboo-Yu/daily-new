@@ -1,0 +1,335 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font-family: 微软雅黑;
+  font-size: 13px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+#head {
+  background-color: #1878c7;
+  height: 40px;
+  color: white;
+}
+
+#head .ui-btn {
+  background-color: #1878c7;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*loading.html pageone.html...*/
+
+.bg {
+  background-image: url(../img/start.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#load {
+  position: absolute;
+  width: 60%;
+  margin-left: 20%;
+  height: auto;
+  top: 82%;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+}
+
+#m1 {
+  height: 140px;
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#page1 {
+  width: 230px;
+  height: 230px;
+  margin: 70px auto;
+  border-radius: 50%;
+  background-image: url(../img/p1.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#mp1 {
+  width: 240px;
+  margin: 80px auto;
+  color: palevioletred;
+  font-size: 23px;
+  font-family: '楷体';
+}
+
+#m2 {
+  height: 140px;
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#page2 {
+  width: 230px;
+  height: 230px;
+  margin: 70px auto;
+  border-radius: 50%;
+  background-image: url(../img/p2.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#mp2 {
+  width: 240px;
+  margin: 80px auto;
+  color: palevioletred;
+  font-size: 23px;
+  font-family: '楷体';
+}
+
+#m3 {
+  height: 140px;
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#page3 {
+  width: 230px;
+  height: 230px;
+  margin: 70px auto;
+  border-radius: 50%;
+  background-image: url(../img/p3.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#mp3 {
+  width: 240px;
+  margin: 80px auto;
+  color: palevioletred;
+  font-size: 23px;
+  font-family: '楷体';
+}
+
+#m4 {
+  height: 140px;
+  background-image: url(../img/logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#page4 {
+  width: 230px;
+  height: 230px;
+  margin: 70px auto;
+  border-radius: 50%;
+  background-image: url(../img/p4.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+#mp4 {
+  width: 250px;
+  margin: 80px auto;
+  color: palevioletred;
+  font-size: 23px;
+  font-family: '楷体';
+}
+
+#mypage4 .kq {
+  position: absolute;
+  right: 35px;
+  top: 439px;
+}
+
+#mypage4 .ui-btn {
+  background-color: #1878c7;
+  color: white;
+}
+
+#m {
+  width: 50px;
+  height: 26px;
+  position: absolute;
+  right: 20px;
+  bottom: 170px;
+  background-image: url(../img/jt.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+/*home.html*/
+
+#myPanel {
+  background-color: #f7f7f7;
+}
+
+#head1 {
+  background-image: url(../img/timg.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 180px;
+}
+
+#head1 #date1 {
+  top: 90px;
+  right: 30px;
+  position: absolute;
+  color: #333333;
+  font-size: 13px;
+}
+
+#bg01 span {
+  font-size: 14px;
+}
+
+#bg01 .ui-btn {
+  border: 0;
+}
+
+.ui-icon-write {
+  background-image: url(../img/write.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 10%;
+  height: 18px;
+}
+
+.ui-icon-more {
+  background-image: url(../img/more.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 10%;
+  height: 18px;
+}
+
+.ui-icon-rl {
+  background-image: url(../img/calendar.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 10%;
+  height: 18px;
+}
+
+#liebiao {
+  height: 225px;
+  font-size: 15px;
+  padding: 15px;
+}
+
+#liebiao ul li .ui-btn {
+  height: 56px;
+  font-size: 13px;
+  color: #8f7e84;
+  font-family: '宋体';
+  background-color: #efeaea;
+}
+
+#liebiao ul li .ui-btn span {
+  font-size: 19px;
+  color: #593e46;
+}
+
+#liebiao ul li .ui-btn p {
+  font-size: 14px;
+  top: 16px;
+  font-family: '微软雅黑';
+}
+
+#liebiao ul li .ui-btn img {
+  width: 51px;
+  height: 54px;
+  left: 17px;
+  top: 10px;
+}
+
+/*my.html*/
+
+#my {
+  position: relative;
+  height: 80px;
+}
+
+#my img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+#my span {
+  position: absolute;
+  top: 7px;
+  left: 100px;
+  color: palevioletred;
+  font-size: 16px;
+}
+
+#my p {
+  position: absolute;
+  top: 42px;
+  left: 100px;
+  color: #333333;
+  font-size: 13px;
+}
+
+.bg03 .ui-navbar ul .ui-btn {
+  background-color: #efeaea;
+}
+
+#liebiao2 {
+  height: 230px;
+  font-size: 14px;
+}
+
+#liebiao2 ul li .ui-btn {
+  height: 20px;
+  font-size: 13px;
+  color: #8f7e84;
+  font-family: '宋体';
+  background-color: #efeaea;
+}
+
+#liebiao2 ul li .ui-btn span {
+  font-size: 14px;
+  color: #593e46;
+  margin-left: -35px;
+}
+
+#liebiao2 ul li .ui-btn img {
+  width: 25px;
+  height: 25px;
+  left: 7px;
+  top: 6px;
+}

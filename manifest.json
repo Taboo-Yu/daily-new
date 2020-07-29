@@ -1,0 +1,222 @@
+﻿{
+  "@platforms": ["android", "iPhone", "iPad"],
+  "id": "H5025783E",
+  "name": "dairy",
+  "version": {
+    "name": "1.0",
+    "code": ""
+  },
+  "description": "",
+  "icons": {
+    "72": "icon.png"
+  },
+  "launch_path": "loading.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Accelerometer": {
+      "description": "访问加速度感应器"
+    },
+    "Audio": {
+      "description": "访问麦克风"
+    },
+    "Messaging": {
+      "description": "短彩邮件插件"
+    },
+    "Cache": {
+      "description": "管理应用缓存"
+    },
+    "Camera": {
+      "description": "访问摄像头"
+    },
+    "Console": {
+      "description": "跟踪调试输出日志"
+    },
+    "Contacts": {
+      "description": "访问系统联系人信息"
+    },
+    "Device": {
+      "description": "访问设备信息"
+    },
+    "Downloader": {
+      "description": "文件下载管理"
+    },
+    "Events": {
+      "description": "应用扩展事件"
+    },
+    "File": {
+      "description": "访问本地文件系统"
+    },
+    "Gallery": {
+      "description": "访问系统相册"
+    },
+    "Geolocation": {
+      "description": "访问位置信息"
+    },
+    "Invocation": {
+      "description": "使用Native.js能力"
+    },
+    "Orientation": {
+      "description": "访问方向感应器"
+    },
+    "Proximity": {
+      "description": "访问距离感应器"
+    },
+    "Storage": {
+      "description": "管理应用本地数据"
+    },
+
+    "Uploader": {
+      "description": "管理文件上传任务"
+    },
+    "Runtime": {
+      "description": "访问运行期环境"
+    },
+    "XMLHttpRequest": {
+      "description": "跨域网络访问"
+    },
+    "Zip": {
+      "description": "文件压缩与解压缩"
+    },
+    "Barcode": {
+      "description": "管理二维码扫描插件"
+    },
+    "Maps": {
+      "description": "管理地图插件"
+    },
+    "Speech": {
+      "description": "管理语音识别插件"
+    },
+    "Webview": {
+      "description": "窗口管理"
+    },
+    "NativeUI": {
+      "description": "原生UI控件"
+    },
+    "Navigator": {
+      "description": "浏览器信息"
+    },
+    "NativeObj": {
+      "description": "原生对象"
+    }
+  },
+  "plus": {
+    "splashscreen": {
+      "autoclose": true,
+      "waiting": true
+    },
+    "popGesture": "close",
+    "runmode": "normal",
+    "signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",
+    "distribute": {
+      "apple": {
+        "appid": "",
+        "mobileprovision": "",
+        "password": "",
+        "p12": "",
+        "devices": "universal",
+        "frameworks": []
+      },
+      "google": {
+        "packagename": "",
+        "keystore": "",
+        "password": "",
+        "aliasname": "",
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "orientation": ["portrait-primary"],
+      "icons": {
+        "ios": {
+          "prerendered": true,
+          "auto": "512x512",
+          "iphone": {
+            "normal": "57x57",
+            "retina": "114x114",
+            "retina7": "120x120",
+            "retina8": "180x180",
+            "spotlight-normal": "29x29",
+            "spotlight-retina": "58x58",
+            "spotlight-retina7": "80x80",
+            "settings-normal": "29x29",
+            "settings-retina": "58x58",
+            "settings-retina8": "87x87"
+          },
+          "ipad": {
+            "normal": "72x72",
+            "retina": "144x144",
+            "normal7": "152x152",
+            "retina7": "152x152",
+            "spotlight-normal": "50x50",
+            "spotlight-retina": "100x100",
+            "spotlight-normal7": "40x40",
+            "spotlight-retina7": "80x80",
+            "settings-normal": "29x29",
+            "settings-retina": "58x58"
+          }
+        },
+        "android": {
+          "mdpi": "48x48",
+          "ldpi": "48x48",
+          "hdpi": "72x72",
+          "xhdpi": "96x96",
+          "xxhdpi": "144x144"
+        }
+      },
+      "splashscreen": {
+        "ios": {
+          "iphone": {
+            "default": "320x480",
+            "retina35": "640x960",
+            "retina40": "640x1136",
+            "retina47": "750x1334",
+            "retina55": "1242x2208",
+            "retina55l": "2208x1242"
+          },
+          "ipad": {
+            "portrait": "768x1004",
+            "portrait-retina": "1536x2008",
+            "landscape": "1024x748",
+            "landscape-retina": "2048x1496",
+            "portrait7": "768x1024",
+            "portrait-retina7": "1536x2048",
+            "landscape7": "1024x768",
+            "landscape-retina7": "2048x1536"
+          }
+        },
+        "android": {
+          "mdpi": "240x282",
+          "ldpi": "320x442",
+          "hdpi": "480x762",
+          "xhdpi": "720x1242",
+          "xxhdpi": "1080x1882"
+        }
+      }
+    }
+  }
+}
