@@ -37,17 +37,6 @@ li {
   overflow: hidden;
 }
 
-#datescroll div {
-  float: left;
-  margin-left: 10%;
-  margin-top: 15px;
-  padding-right: 22px;
-}
-#datescroll_datetime div {
-  float: left;
-  margin-left: 10%;
-  padding-right: 22px;
-}
 #yearwrapper {
   position: absolute;
   left: 0;
