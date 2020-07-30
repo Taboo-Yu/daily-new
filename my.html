@@ -7,7 +7,7 @@
       content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
     />
     <title>我的</title>
-    <link rel="stylesheet" href="css/1.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <link
       rel="stylesheet"
@@ -27,44 +27,49 @@
 
   <body>
     <div data-role="page" class="bg03">
+      <!--页首-->
       <div data-role="header" data-position="fixed" id="head">
         <h1>我的</h1>
       </div>
-
-      <div data-role="content" style="background-color: #e4dcde;">
+      <!--头像用户名-->
+      <div
+        data-role="content"
+        style="background-color: #65b2df; height: 521px;"
+      >
         <div id="my">
           <img src="img/photo.jpg" /><span id="name">浪叠松涛</span>
           <p>啊哈</p>
         </div>
         <br />
+        <!--按钮-->
         <div data-role="navbar">
           <ul>
             <li>
-              <a href="diary.html" data-ajax="false">点滴</a>
+              <a href="diary.html" data-ajax="false">日记本</a>
             </li>
           </ul>
         </div>
-        <br /><br />
         <br />
-        <div id="liebiao2">
-          <ul data-role="listview">
+        <!--列表-->
+        <div id="listing">
+          <ul data-role="listview" data-inset="true">
             <li>
-              <a href="setting.html" data-ajax="false" class="ui-bodisc-icon"
-                ><img src="img/setting.png" /><span>设置</span></a
-              >
-            </li>
-            <li>
-              <a href="calendar.html" data-ajax="false" class="ui-bodisc-icon">
+              <a href="calendar.html" data-ajax="false">
                 <img src="img/calendar.png" /><span>日历</span>
               </a>
             </li>
             <li>
-              <a href="write.html" data-ajax="false" class="ui-bodisc-icon">
+              <a href="write.html" data-ajax="false">
                 <img src="img/write.png" /><span>写日记</span>
               </a>
             </li>
             <li>
-              <a href="login.html" data-ajax="false" class="ui-bodisc-icon">
+              <a href="setting.html" data-ajax="false">
+                <img src="img/setting.png" /><span>设置</span></a
+              >
+            </li>
+            <li>
+              <a href="login.html" data-ajax="false">
                 <img src="img/quit.png" /><span>退出登录</span>
               </a>
             </li>
@@ -72,13 +77,13 @@
         </div>
         <br />
       </div>
-
+      <!--页尾导航栏-->
       <div
         data-role="footer"
         data-position="fixed"
         data-tap-toggle="false"
         id="foot"
-        style="text-align: center; height: 2.4rem;"
+        style="text-align: center; height: 2.6rem;"
       >
         <div data-role="navbar">
           <ul>
@@ -99,12 +104,8 @@
               <a
                 href="#"
                 data-ajax="false"
-                style="background-color: #1878c7; padding-top: 0.22rem;"
-              >
-                <i
-                  class="fa fa-user"
-                  style="font-size: 1.9rem; color: #fff;"
-                ></i
+                class="ui-btn-active ui-state-persist"
+                data-icon="user"
               ></a>
             </li>
           </ul>

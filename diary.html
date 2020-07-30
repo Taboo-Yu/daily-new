@@ -25,7 +25,7 @@
         }
         
         #head a {
-            color: rgba(45, 202, 189, 0.733);
+            color: rgba(255,255,255);
             position: absolute;
             text-decoration: none;
             font-size: 12px;
@@ -89,7 +89,7 @@
           width: auto;
           border: #34aee7be;
           color:#000;
-          border-radius: 3px;
+          border-radius: 30px;
           position: relative;
           text-align: center;
 
@@ -99,7 +99,7 @@
           width: auto;
           border: #1a7bebc9;
           color: #000;
-          border-radius: 3px;
+          border-radius: 30px;
           position: relative;
           text-align: center;
         }
@@ -107,7 +107,7 @@
             height:25px;
             width: auto;
             color: #000;
-            border-radius: 3px;
+            border-radius: 30px;
             position: relative;
             text-align:cenetr;
             border: #1a7bebc9;
@@ -253,14 +253,12 @@
     </div>
 
     <div id="cc" style="background-color: #34aee7be;height: 34px;padding-top:10px;padding-left: 7px;">
-        回顾:
-        <select id="dayselection" style="height: 25px;">
+        <select id="dayselection" style="height: 26px;width: fit-content;">
       <option value="1"> 1天内 </option>
       <option value="3"> 3天内 </option>
       <option value="7"> 7天内 </option>
       <option value="14"> 14天内 </option>
       <option value="30"> 1月内 </option>
-      <!-- <option value="">  </option> -->
     </select>
         <input type="button" id="prev" value="上一篇"  onclick="showPrevious();">
         <input type="button" id="next" value="下一篇"  onclick="showNext();" >

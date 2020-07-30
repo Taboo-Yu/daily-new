@@ -63,42 +63,12 @@ a {
   background-size: cover;
 }
 
-#page1 {
-  width: 230px;
-  height: 230px;
-  margin: 70px auto;
-  border-radius: 50%;
-  background-image: url(../img/p1.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
 #mp1 {
   width: 240px;
   margin: 80px auto;
   color: palevioletred;
   font-size: 23px;
   font-family: '楷体';
-}
-
-#m2 {
-  height: 140px;
-  background-image: url(../img/logo.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
-#page2 {
-  width: 230px;
-  height: 230px;
-  margin: 70px auto;
-  border-radius: 50%;
-  background-image: url(../img/p2.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
 }
 
 #mp2 {
@@ -109,54 +79,8 @@ a {
   font-family: '楷体';
 }
 
-#m3 {
-  height: 140px;
-  background-image: url(../img/logo.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
-#page3 {
-  width: 230px;
-  height: 230px;
-  margin: 70px auto;
-  border-radius: 50%;
-  background-image: url(../img/p3.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
 #mp3 {
   width: 240px;
-  margin: 80px auto;
-  color: palevioletred;
-  font-size: 23px;
-  font-family: '楷体';
-}
-
-#m4 {
-  height: 140px;
-  background-image: url(../img/logo.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
-#page4 {
-  width: 230px;
-  height: 230px;
-  margin: 70px auto;
-  border-radius: 50%;
-  background-image: url(../img/p4.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
-#mp4 {
-  width: 250px;
   margin: 80px auto;
   color: palevioletred;
   font-size: 23px;
@@ -174,22 +98,11 @@ a {
   color: white;
 }
 
-#m {
-  width: 50px;
-  height: 26px;
-  position: absolute;
-  right: 20px;
-  bottom: 170px;
-  background-image: url(../img/jt.png);
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: cover;
-}
-
 /*home.html*/
 
 #myPanel {
   background-color: #f7f7f7;
+  background-image: url(../img/leftPic.jpg);
 }
 
 #head1 {
@@ -204,7 +117,7 @@ a {
   top: 90px;
   right: 30px;
   position: absolute;
-  color: #333333;
+  color: #000000;
   font-size: 13px;
 }
 
@@ -227,6 +140,33 @@ a {
 
 .ui-icon-more {
   background-image: url(../img/more.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 10%;
+  height: 18px;
+}
+
+.ui-icon-my {
+  background-image: url(../img/my.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 10%;
+  height: 18px;
+}
+
+.ui-icon-writenote {
+  background-image: url(../img/writenote.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 10%;
+  height: 18px;
+}
+
+.ui-icon-setting {
+  background-image: url(../img/setting.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -308,26 +248,34 @@ a {
   background-color: #efeaea;
 }
 
-#liebiao2 {
-  height: 230px;
+#listing {
+  height: 153px;
   font-size: 14px;
+  background-color: aquamarine;
+  opacity: 0.7;
 }
 
-#liebiao2 ul li .ui-btn {
+#listing1 {
+  height: 250 px;
+  font-size: 14px;
+  /*background-color: #ffffff;*/
+}
+
+#listing ul li .ui-btn {
   height: 20px;
   font-size: 13px;
-  color: #8f7e84;
+  color: #ffffff;
   font-family: '宋体';
-  background-color: #efeaea;
+  background-color: #ffffff;
 }
 
-#liebiao2 ul li .ui-btn span {
+#listing ul li .ui-btn span {
   font-size: 14px;
   color: #593e46;
   margin-left: -35px;
 }
 
-#liebiao2 ul li .ui-btn img {
+#listing ul li .ui-btn img {
   width: 25px;
   height: 25px;
   left: 7px;
